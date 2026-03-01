@@ -1,0 +1,15 @@
+# Ignore data and databases
+backend/data/
+*.db
+*.mv.db
+*.trace.db
+
+# Any other workspace configs
+.idea/
+.vscode/
+
+# Ensure frontend and backend ignores are doing their job
+# (They should have their own, but just in case)
+node_modules/
+dist/
+target/
